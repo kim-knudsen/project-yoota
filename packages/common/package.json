@@ -1,0 +1,25 @@
+{
+    "name": "@yoota/common",
+    "version": "0.1.0",
+    "main": "./dist/index.js",
+    "types": "./dist/index.d.ts",
+    "source": "./src/index.ts",
+    "files": [
+        "dist/**"
+    ],
+    "license": "MIT",
+    "scripts": {
+        "clean": "rimraf dist",
+        "build": "yarn clean; tsc",
+        "lint": "eslint ./src --ext .js,.jsx,.ts,.tsx --max-warnings=0",
+        "test": "tsc --noEmit && yarn lint;"
+    },
+    "devDependencies": {
+        "@yoota/eslint-config": "*",
+        "eslint": "^8.34.0",
+        "rimraf": "^4.1.2",
+        "tsconfig": "*",
+        "typescript": "^5.0.2"
+    },
+    "dependencies": {}
+}

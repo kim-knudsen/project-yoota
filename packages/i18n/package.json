@@ -1,0 +1,38 @@
+{
+    "name": "@yoota/i18n",
+    "version": "0.1.0",
+    "main": "./dist/index.js",
+    "types": "./dist/index.d.ts",
+    "source": "./src/index.ts",
+    "files": [
+        "dist/**"
+    ],
+    "license": "MIT",
+    "scripts": {
+        "clean": "rimraf dist",
+        "build": "yarn clean; tsc",
+        "lint": "eslint ./src --ext .js,.jsx,.ts,.tsx --max-warnings=0",
+        "test": "tsc --noEmit && yarn lint; jest -i"
+    },
+    "devDependencies": {
+        "@types/react": "^18.0.21",
+        "@yoota/eslint-config": "*",
+        "@yoota/tsconfig": "*",
+        "eslint": "^8.34.0",
+        "jest": "^29.4.3",
+        "react": "18.2.0",
+        "react-intl": "^6.1.2",
+        "rimraf": "^4.1.2",
+        "ts-jest": "^29.0.3",
+        "ts-node": "^10.9.1",
+        "typescript": "^5.0.2"
+    },
+    "dependencies": {
+        "@yoota/common": "*",
+        "intl-parse-accept-language": "^1.0.0",
+        "react-intl": "^6.1.2"
+    },
+    "peerDependencies": {
+        "react": "18.2.0"
+    }
+}

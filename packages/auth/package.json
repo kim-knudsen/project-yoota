@@ -1,0 +1,40 @@
+{
+    "name": "@yoota/auth",
+    "version": "0.1.0",
+    "main": "./dist/index.js",
+    "types": "./dist/index.d.ts",
+    "source": "./src/index.ts",
+    "files": [
+        "dist/**"
+    ],
+    "license": "MIT",
+    "scripts": {
+        "clean": "rimraf dist",
+        "build": "yarn clean && tsc",
+        "lint": "eslint ./src --ext .js,.jsx,.ts,.tsx --max-warnings=0",
+        "test": "tsc --noEmit && yarn lint"
+    },
+    "devDependencies": {
+        "@types/nodemailer": "^6.4.6",
+        "@types/react": "^18.0.21",
+        "@yoota/common": "*",
+        "@yoota/eslint-config": "*",
+        "@yoota/tsconfig": "*",
+        "eslint": "^8.34.0",
+        "next": "13.2.1",
+        "next-auth": "^4.19.2",
+        "rimraf": "^4.1.2",
+        "typescript": "^5.0.2"
+    },
+    "dependencies": {
+        "@yoota/db": "*",
+        "@yoota/i18n": "*",
+        "@yoota/logger": "*",
+        "jsonwebtoken": "^9.0.0",
+        "nodemailer": "^6.8.0"
+    },
+    "peerDependencies": {
+        "next": "12.3.1",
+        "next-auth": "^4.10.3"
+    }
+}

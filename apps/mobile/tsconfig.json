@@ -1,0 +1,9 @@
+{
+    "extends": "@tsconfig/react-native/tsconfig.json",
+    "compilerOptions": {
+        "rootDir": "./src",
+        "isolatedModules": false,
+        "skipLibCheck": true
+    },
+    "include": ["src"]
+}

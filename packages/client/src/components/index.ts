@@ -1,0 +1,1 @@
+export { YootaLogo } from './YootaLogo'

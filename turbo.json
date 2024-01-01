@@ -1,0 +1,54 @@
+{
+    "$schema": "https://turborepo.org/schema.json",
+    "pipeline": {
+        "build": {
+            "dependsOn": ["^build"],
+            "env": [
+                "NODE_ENV",
+                "SIGN_TOKEN_SECRET",
+                "NEXT_PUBLIC_VERCEL_URL",
+                "NEXT_PUBLIC_VERCEL_ENV",
+                "VERCEL",
+                "VERCEL_URL",
+                "NEXT_PUBLIC_CONSOLE_LOG_LEVEL",
+                "EMAIL_SERVER",
+                "EMAIL_FROM",
+                "GOOGLE_CLIENT_ID",
+                "GOOGLE_CLIENT_SECRET"
+            ],
+            "outputs": ["dist/**", ".next/**"]
+        },
+        "lint": {
+            "cache": false,
+            "outputs": []
+        },
+        "test": {
+            "cache": false,
+            "outputs": []
+        },
+        "clean": {
+            "outputs": [],
+            "cache": false
+        },
+        "dev": {
+            "outputs": [],
+            "cache": false
+        },
+        "staging": {
+            "outputs": [],
+            "cache": false
+        },
+        "db:start": {
+            "outputs": [],
+            "cache": false
+        },
+        "db:stop": {
+            "outputs": [],
+            "cache": false
+        },
+        "db:migrate:dev": {
+            "outputs": [],
+            "cache": false
+        }
+    }
+}

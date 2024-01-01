@@ -1,0 +1,10 @@
+{
+    "extends": "@yoota/tsconfig/node.json",
+    "compilerOptions": {
+        "outDir": "./dist",
+        "rootDir": "./src",
+        "module": "esnext",
+        "target": "es5"
+    },
+    "include": ["src"]
+}

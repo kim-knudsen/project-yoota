@@ -1,0 +1,33 @@
+{
+    "name": "yoota",
+    "version": "0.0.0",
+    "private": true,
+    "workspaces": {
+        "packages": [
+            "apps/*",
+            "packages/*"
+        ]
+    },
+    "scripts": {
+        "build": "turbo run build",
+        "clean": "rimraf ./node_modules/.cache/turbo && turbo run clean",
+        "dev": "turbo run dev",
+        "staging": "turbo run staging",
+        "db:start": "turbo run db:start",
+        "db:stop": "turbo run db:stop",
+        "db:migrate:dev": "turbo run db:migrate:dev",
+        "lint": "turbo run lint",
+        "test": "turbo run test",
+        "format": "prettier --write \"**/*.{ts,tsx,md}\""
+    },
+    "devDependencies": {
+        "prettier": "2.8.4",
+        "rimraf": "^4.1.2",
+        "turbo": "1.8.3"
+    },
+    "engines": {
+        "node": ">=14.0.0"
+    },
+    "dependencies": {},
+    "packageManager": "yarn@1.22.19"
+}

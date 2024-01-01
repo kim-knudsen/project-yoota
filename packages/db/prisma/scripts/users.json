@@ -1,0 +1,509 @@
+[
+    {
+        "id": "cl8hka03n0000zdllmdh7n3gg",
+        "name": "John Doe",
+        "email": "john@doe.com",
+        "emailVerified": null,
+        "image": "https://avatars.dicebear.com/api/male/john@doe.com.svg?mood=happy",
+        "events": [
+            {
+                "id": 1,
+                "name": "Awesome event",
+                "description": "🏟",
+                "state": "OPEN",
+                "userId": "cl8hka03n0000zdllmdh7n3gg",
+                "timeZoneId": 1,
+                "options": [
+                    {
+                        "id": 1,
+                        "startAt": "2022-09-23T22:00:00.000Z",
+                        "endAt": "2022-09-23T22:00:00.000Z",
+                        "eventId": 1
+                    },
+                    {
+                        "id": 2,
+                        "startAt": "2022-09-29T22:00:00.000Z",
+                        "endAt": "2022-09-29T22:00:00.000Z",
+                        "eventId": 1
+                    },
+                    {
+                        "id": 3,
+                        "startAt": "2022-09-27T22:00:00.000Z",
+                        "endAt": "2022-09-27T22:00:00.000Z",
+                        "eventId": 1
+                    }
+                ],
+                "participants": []
+            },
+            {
+                "id": 2,
+                "name": "Have you seen the party event?",
+                "description": "It's gonna go down 🧤",
+                "state": "OPEN",
+                "userId": "cl8hka03n0000zdllmdh7n3gg",
+                "timeZoneId": 43,
+                "options": [
+                    {
+                        "id": 4,
+                        "startAt": "2022-09-26T22:00:00.000Z",
+                        "endAt": "2022-09-26T22:00:00.000Z",
+                        "eventId": 2
+                    },
+                    {
+                        "id": 5,
+                        "startAt": "2022-09-27T22:00:00.000Z",
+                        "endAt": "2022-09-27T22:00:00.000Z",
+                        "eventId": 2
+                    },
+                    {
+                        "id": 6,
+                        "startAt": "2022-09-29T22:00:00.000Z",
+                        "endAt": "2022-09-29T22:00:00.000Z",
+                        "eventId": 2
+                    },
+                    {
+                        "id": 7,
+                        "startAt": "2022-10-12T22:00:00.000Z",
+                        "endAt": "2022-10-12T22:00:00.000Z",
+                        "eventId": 2
+                    },
+                    {
+                        "id": 8,
+                        "startAt": "2022-10-17T22:00:00.000Z",
+                        "endAt": "2022-10-17T22:00:00.000Z",
+                        "eventId": 2
+                    },
+                    {
+                        "id": 9,
+                        "startAt": "2022-10-28T22:00:00.000Z",
+                        "endAt": "2022-10-28T22:00:00.000Z",
+                        "eventId": 2
+                    }
+                ],
+                "participants": []
+            },
+            {
+                "id": 3,
+                "name": "Jibby event",
+                "description": "See ya!",
+                "state": "OPEN",
+                "userId": "cl8hka03n0000zdllmdh7n3gg",
+                "timeZoneId": 43,
+                "options": [
+                    {
+                        "id": 10,
+                        "startAt": "2022-11-14T23:00:00.000Z",
+                        "endAt": "2022-11-14T23:00:00.000Z",
+                        "eventId": 3
+                    },
+                    {
+                        "id": 11,
+                        "startAt": "2022-11-24T23:00:00.000Z",
+                        "endAt": "2022-11-24T23:00:00.000Z",
+                        "eventId": 3
+                    },
+                    {
+                        "id": 12,
+                        "startAt": "2022-11-11T23:00:00.000Z",
+                        "endAt": "2022-11-11T23:00:00.000Z",
+                        "eventId": 3
+                    },
+                    {
+                        "id": 13,
+                        "startAt": "2022-11-26T23:00:00.000Z",
+                        "endAt": "2022-11-26T23:00:00.000Z",
+                        "eventId": 3
+                    }
+                ],
+                "participants": [
+                    {
+                        "id": 1,
+                        "name": "Ali \"Big Gee\" Thomson",
+                        "email": "ali@express.com",
+                        "eventId": 3,
+                        "votes": [
+                            {
+                                "id": 1,
+                                "type": "YES",
+                                "participantId": 1,
+                                "optionId": 12
+                            },
+                            {
+                                "id": 2,
+                                "type": "YES",
+                                "participantId": 1,
+                                "optionId": 12
+                            },
+                            {
+                                "id": 3,
+                                "type": "YES",
+                                "participantId": 1,
+                                "optionId": 13
+                            }
+                        ]
+                    },
+                    {
+                        "id": 2,
+                        "name": "Uncle Bob",
+                        "email": "bob@express.com",
+                        "eventId": 3,
+                        "votes": [
+                            {
+                                "id": 4,
+                                "type": "YES",
+                                "participantId": 2,
+                                "optionId": 13
+                            }
+                        ]
+                    },
+                    {
+                        "id": 3,
+                        "name": "Britta Brøl",
+                        "email": "britta@express.com",
+                        "eventId": 3,
+                        "votes": [
+                            {
+                                "id": 5,
+                                "type": "YES",
+                                "participantId": 3,
+                                "optionId": 11
+                            },
+                            {
+                                "id": 6,
+                                "type": "YES",
+                                "participantId": 3,
+                                "optionId": 10
+                            },
+                            {
+                                "id": 7,
+                                "type": "YES",
+                                "participantId": 3,
+                                "optionId": 13
+                            }
+                        ]
+                    },
+                    {
+                        "id": 4,
+                        "name": "Bjarne Brøl",
+                        "email": "bj@express.com",
+                        "eventId": 3,
+                        "votes": [
+                            {
+                                "id": 8,
+                                "type": "YES",
+                                "participantId": 4,
+                                "optionId": 10
+                            },
+                            {
+                                "id": 9,
+                                "type": "YES",
+                                "participantId": 4,
+                                "optionId": 13
+                            }
+                        ]
+                    },
+                    {
+                        "id": 5,
+                        "name": "Egon Olson",
+                        "email": "olson@express.com",
+                        "eventId": 3,
+                        "votes": [
+                            {
+                                "id": 10,
+                                "type": "YES",
+                                "participantId": 5,
+                                "optionId": 11
+                            },
+                            {
+                                "id": 11,
+                                "type": "YES",
+                                "participantId": 5,
+                                "optionId": 11
+                            }
+                        ]
+                    },
+                    {
+                        "id": 6,
+                        "name": "Bingo Leif",
+                        "email": "bingo@express.com",
+                        "eventId": 3,
+                        "votes": [
+                            {
+                                "id": 12,
+                                "type": "YES",
+                                "participantId": 6,
+                                "optionId": 12
+                            },
+                            {
+                                "id": 13,
+                                "type": "YES",
+                                "participantId": 6,
+                                "optionId": 13
+                            },
+                            {
+                                "id": 14,
+                                "type": "YES",
+                                "participantId": 6,
+                                "optionId": 13
+                            }
+                        ]
+                    },
+                    {
+                        "id": 7,
+                        "name": "Pluto Dunkgard",
+                        "email": "plu@express.com",
+                        "eventId": 3,
+                        "votes": [
+                            {
+                                "id": 15,
+                                "type": "YES",
+                                "participantId": 7,
+                                "optionId": 11
+                            },
+                            {
+                                "id": 16,
+                                "type": "YES",
+                                "participantId": 7,
+                                "optionId": 10
+                            },
+                            {
+                                "id": 17,
+                                "type": "YES",
+                                "participantId": 7,
+                                "optionId": 10
+                            }
+                        ]
+                    },
+                    {
+                        "id": 8,
+                        "name": "Preben Presskolaj",
+                        "email": "pre@express.com",
+                        "eventId": 3,
+                        "votes": [
+                            {
+                                "id": 18,
+                                "type": "YES",
+                                "participantId": 8,
+                                "optionId": 10
+                            },
+                            {
+                                "id": 19,
+                                "type": "YES",
+                                "participantId": 8,
+                                "optionId": 10
+                            },
+                            {
+                                "id": 20,
+                                "type": "YES",
+                                "participantId": 8,
+                                "optionId": 11
+                            }
+                        ]
+                    },
+                    {
+                        "id": 9,
+                        "name": "Conrad Gummihug",
+                        "email": "gum@express.com",
+                        "eventId": 3,
+                        "votes": [
+                            {
+                                "id": 21,
+                                "type": "YES",
+                                "participantId": 9,
+                                "optionId": 11
+                            },
+                            {
+                                "id": 22,
+                                "type": "YES",
+                                "participantId": 9,
+                                "optionId": 12
+                            }
+                        ]
+                    },
+                    {
+                        "id": 10,
+                        "name": "Kingo Per",
+                        "email": "per@gmail.com",
+                        "eventId": 3,
+                        "votes": [
+                            {
+                                "id": 23,
+                                "type": "YES",
+                                "participantId": 10,
+                                "optionId": 13
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "id": 4,
+                "name": "Nougat Rave",
+                "description": "",
+                "state": "OPEN",
+                "userId": "cl8hka03n0000zdllmdh7n3gg",
+                "timeZoneId": 43,
+                "options": [
+                    {
+                        "id": 14,
+                        "startAt": "2022-09-23T22:00:00.000Z",
+                        "endAt": "2022-09-23T22:00:00.000Z",
+                        "eventId": 4
+                    },
+                    {
+                        "id": 15,
+                        "startAt": "2022-09-29T22:00:00.000Z",
+                        "endAt": "2022-09-29T22:00:00.000Z",
+                        "eventId": 4
+                    }
+                ],
+                "participants": []
+            }
+        ],
+        "accounts": [
+            {
+                "id": "cl8hka03n0001zdllzcjney21",
+                "userId": "cl8hka03n0000zdllmdh7n3gg",
+                "type": "oauth",
+                "provider": "fake-oauth",
+                "providerAccountId": "john-123",
+                "refresh_token": null,
+                "access_token": "john",
+                "expires_at": null,
+                "token_type": null,
+                "scope": null,
+                "id_token": null,
+                "session_state": null,
+                "refresh_token_expires_in": null
+            }
+        ]
+    },
+    {
+        "id": "cl8hka0820013zdllhl0wmxcl",
+        "name": "Jane Doe",
+        "email": "jane@doe.com",
+        "emailVerified": null,
+        "image": "https://avatars.dicebear.com/api/female/jane@doe.com.svg?mood=happy",
+        "events": [
+            {
+                "id": 5,
+                "name": "Jane's Super Event",
+                "description": "🍰",
+                "state": "OPEN",
+                "userId": "cl8hka0820013zdllhl0wmxcl",
+                "timeZoneId": 43,
+                "options": [
+                    {
+                        "id": 16,
+                        "startAt": "2022-09-27T22:00:00.000Z",
+                        "endAt": "2022-09-27T22:00:00.000Z",
+                        "eventId": 5
+                    },
+                    {
+                        "id": 17,
+                        "startAt": "2022-09-25T22:00:00.000Z",
+                        "endAt": "2022-09-25T22:00:00.000Z",
+                        "eventId": 5
+                    },
+                    {
+                        "id": 18,
+                        "startAt": "2022-10-21T22:00:00.000Z",
+                        "endAt": "2022-10-21T22:00:00.000Z",
+                        "eventId": 5
+                    },
+                    {
+                        "id": 19,
+                        "startAt": "2022-10-12T22:00:00.000Z",
+                        "endAt": "2022-10-12T22:00:00.000Z",
+                        "eventId": 5
+                    },
+                    {
+                        "id": 20,
+                        "startAt": "2022-10-22T22:00:00.000Z",
+                        "endAt": "2022-10-22T22:00:00.000Z",
+                        "eventId": 5
+                    }
+                ],
+                "participants": [
+                    {
+                        "id": 11,
+                        "name": "Onkel Bob",
+                        "email": "bob@gmail.com",
+                        "eventId": 5,
+                        "votes": [
+                            {
+                                "id": 24,
+                                "type": "YES",
+                                "participantId": 11,
+                                "optionId": 18
+                            }
+                        ]
+                    },
+                    {
+                        "id": 12,
+                        "name": "Rytter Ib",
+                        "email": "ib@gmail.com",
+                        "eventId": 5,
+                        "votes": [
+                            {
+                                "id": 25,
+                                "type": "YES",
+                                "participantId": 12,
+                                "optionId": 17
+                            },
+                            {
+                                "id": 26,
+                                "type": "YES",
+                                "participantId": 12,
+                                "optionId": 17
+                            }
+                        ]
+                    },
+                    {
+                        "id": 13,
+                        "name": "Carsten",
+                        "email": "cn@gmail.com",
+                        "eventId": 5,
+                        "votes": [
+                            {
+                                "id": 27,
+                                "type": "YES",
+                                "participantId": 13,
+                                "optionId": 18
+                            },
+                            {
+                                "id": 28,
+                                "type": "YES",
+                                "participantId": 13,
+                                "optionId": 16
+                            },
+                            {
+                                "id": 29,
+                                "type": "YES",
+                                "participantId": 13,
+                                "optionId": 16
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "accounts": [
+            {
+                "id": "cl8hka0820014zdllavo1yauw",
+                "userId": "cl8hka0820013zdllhl0wmxcl",
+                "type": "oauth",
+                "provider": "fake-oauth",
+                "providerAccountId": "jane-123",
+                "refresh_token": null,
+                "access_token": "jane",
+                "expires_at": null,
+                "token_type": null,
+                "scope": null,
+                "id_token": null,
+                "session_state": null,
+                "refresh_token_expires_in": null
+            }
+        ]
+    }
+]

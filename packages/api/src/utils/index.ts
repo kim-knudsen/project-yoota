@@ -1,0 +1,1 @@
+export { createNumberFromHash } from './hashId'

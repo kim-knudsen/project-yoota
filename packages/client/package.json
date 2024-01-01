@@ -1,0 +1,37 @@
+{
+    "name": "@yoota/client",
+    "version": "0.1.0",
+    "main": "./dist/index.js",
+    "types": "./dist/index.d.ts",
+    "source": "./src/index.ts",
+    "files": [
+        "dist/**"
+    ],
+    "license": "MIT",
+    "scripts": {
+        "clean": "rimraf dist",
+        "copy:svg": "cp -R ./src/svg/*.svg ./dist/svg/",
+        "build": "yarn clean && tsc && yarn copy:svg",
+        "lint": "eslint ./src --ext .js,.jsx,.ts,.tsx --max-warnings=0",
+        "test": "tsc --noEmit && yarn lint;"
+    },
+    "devDependencies": {
+        "@yoota/eslint-config": "*",
+        "@yoota/tsconfig": "*",
+        "eslint": "^8.34.0",
+        "react": "18.2.0",
+        "rimraf": "^4.1.2",
+        "typescript": "^5.0.2"
+    },
+    "dependencies": {
+        "@trpc/client": "^10.12.0",
+        "@trpc/next": "^10.12.0",
+        "@trpc/react-query": "^10.12.0",
+        "@yoota/api": "*",
+        "@yoota/theme": "*",
+        "react-native-svg": "^13.8.0"
+    },
+    "peerDependencies": {
+        "react": "18.2.0"
+    }
+}
